@@ -12,3 +12,8 @@ mvStdNorms <- function(nrow=1,means=c(0,0), sds=c(1,1), clsId=1){
   result <- cbind(result,rep(clsId,nrow)) 
   return(result)
 }
+
+observationsStdNormsTwoClasses <- function(numObs=10, dimension=2){
+  
+  
+}
